@@ -254,6 +254,7 @@
 			this.originalImg.style.opacity = 0;
 			this.originalImg.style.maxWidth = 'calc(' + parseInt(Math.abs(this.options.imgPosition.x)*100) + 'vw - ' + this.options.pagemargin + 'px)';
 			this.originalImg.style.maxHeight = 'calc(' + parseInt(Math.abs(this.options.imgPosition.y)*100) + 'vh - ' + this.options.pagemargin + 'px)';
+			// this.originalImg.style.maxHeight ='calc(' + parseInt(Math.abs(this.options.imgPosition.y)*100) + 'vh - ' + this.options.pagemargin + 'px)';
 			// need it because of firefox
 			this.originalImg.style.WebkitTransform = 'translate3d(0,0,0) scale3d(1,1,1)';
 			this.originalImg.style.transform = 'translate3d(0,0,0) scale3d(1,1,1)';
