@@ -74,7 +74,7 @@ button:focus {
 }
 
 .codrops-header h1 {
-	margin: 0.5em 0 0;
+	margin:0;
 	letter-spacing: -1px;
 	font-size: 3em;
 	line-height: 1;
@@ -111,13 +111,21 @@ button:focus {
 	-webkit-transform: rotate3d(0, 0, 1, 22.5deg);
 	transform: rotate3d(0, 0, 1, 22.5deg);
 }
-
+.photo{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	
+}
 .codrops-icon {
+
 	display: inline-block;
 	margin: 0.5em;
 	padding: 0em 0;
 	width: 1.5em;
 	text-decoration: none;
+
 }
 
 .codrops-icon span {
@@ -130,7 +138,7 @@ button:focus {
 	font-weight: normal;
 	font-style: normal;
 	font-variant: normal;
-	font-family: 'codropsicons';
+	/*font-family: 'codropsicons';*/
 	line-height: 1;
 	speak: none;
 	-webkit-font-smoothing: antialiased;
