@@ -33,6 +33,7 @@
 .grid__item {
 	width: 270px;
 	padding: 10px;
+	filter:drop-shadow(black,10vw,10vh,);
 }
 
 .grid__item--current {
