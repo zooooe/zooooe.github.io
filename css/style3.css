@@ -33,7 +33,7 @@
 .grid__item {
 	width: 270px;
 	padding: 10px;
-	filter:drop-shadow(black,10vw,10vh,);
+	
 }
 
 .grid__item--current {
@@ -42,6 +42,16 @@
 
 .img-wrap {
 	display: block;
+
+}
+.img-black{
+	position: relative;
+    overflow: hidden;
+    margin: 5px;
+    background: #000;
+    border-radius: 8px;
+    border-width: 10px;
+    box-shadow: 2px 2px 5px #000;
 }
 
 .img-wrap:focus,
@@ -72,7 +82,7 @@
 	-webkit-align-items: flex-end;
 	align-items: flex-end;
 	width: 100%;
-	height: 75%;
+	height:100%;
 	pointer-events: none;
 }
 
