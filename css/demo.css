@@ -175,6 +175,7 @@ button:focus {
 	padding: 1em 0 3em;
 	max-width: 1080px;
 	margin: 0 auto;
+
 }
 
 
@@ -184,6 +185,7 @@ button:focus {
 	text-align: center;
 	font-weight: bold;
 	padding: 0 1em;
+	background-image: url(../img/bottom.jpg);
 }
 
 .media-item {
