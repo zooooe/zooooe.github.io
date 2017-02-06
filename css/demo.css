@@ -34,7 +34,7 @@
 body {
 	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	color: #fff;
-	background: #252323;
+	background: #2D2D2D;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-y: scroll;
@@ -44,7 +44,7 @@ body {
 
 a {
 	outline: none;
-	color: #77d45b;
+	color: #999999;
 	text-decoration: none;
 }
 
@@ -69,16 +69,17 @@ button:focus {
 /* Header */
 
 .codrops-header {
-	padding: 2em 1em 4em;
+	padding:3em 1em 1em;
 	text-align: center;
 }
 
 .codrops-header h1 {
-	margin:0;
-	letter-spacing: -1px;
-	font-size: 3em;
-	line-height: 1;
-	
+display: block;
+	padding: 0.5em 0 1em;
+	color: #999;
+	font-weight: normal;
+	font-size: 1em;
+	letter-spacing: 0;
 }
 
 .codrops-header h1 span {
@@ -135,7 +136,7 @@ button:focus {
 .codrops-icon:before {
 	margin: 0 5px;
 	text-transform: none;
-	font-weight: normal;
+	font-weight: normal；
 	font-style: normal;
 	font-variant: normal;
 	/*font-family: 'codropsicons';*/
@@ -172,7 +173,7 @@ button:focus {
 /* Content */
 
 .content {
-	padding: 1em 0 3em;
+	padding: 0em 0 0em;
 	max-width: 1080px;
 	margin: 0 auto;
 
@@ -240,3 +241,22 @@ body #cdawrap .carbon-text {
 		font-size: 2.15em;
 	}
 }
+.demo-2 img{
+	border:2px;-webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+   /* border-radius: 8px;*/
+    filter:black;}
+   
+
+ a:hover img {   
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    
+    filter: grayscale(0%);
+	opacity: 0;
+    filter:;}  
+}  

@@ -1,3 +1,19 @@
+img{border:2px;-webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    border-radius: 8px;
+    filter:black;}
+    a:hover img {   
+-webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    
+    filter: grayscale(90%);
+	opacity: 1;
+    filter:;}  
+}  
 .grid {
 	position: relative;
 	margin: 0 auto;
