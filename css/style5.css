@@ -257,11 +257,17 @@ img{border:2px;-webkit-filter: grayscale(0%);
 	text-align: center;
 }
 
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding-right: 1em;
+}
+
 .grid h1 {
 display: block;
 	padding: 0.5em 0 1em;
-	color: #999;
-	font-weight: normal;
+
+
 	font-size: 1em;
 	letter-spacing: 0;
 }
@@ -273,12 +279,20 @@ display: block;
 	font-size: 1em;
 	letter-spacing: 0;
 }
+.grid h1 em{
+	font-style: oblique;
+	font-size: 0.5em;
+	
+	font-weight: normal;
+
+}
 .grid h1 span {
 	display: block;
-	padding: 0.5em 0 1em;
+	padding: 0.5em 3.5em 0em;
 	color: #999;
 	font-weight: normal;
 	font-size: 0.45em;
 	letter-spacing: 0;
 }
+
 
