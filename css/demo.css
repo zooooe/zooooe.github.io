@@ -183,10 +183,10 @@ display: block;
 /* Related demos */
 
 .content--related {
-	text-align: center;
+	/*text-align: center;*/
 	font-weight: bold;
 	padding: 0 1em;
-	background-image: url(../img/bottom.jpg);
+	/*background-image: url(../img/bottom.jpg);*/
 }
 
 .media-item {
@@ -257,6 +257,6 @@ body #cdawrap .carbon-text {
     -o-filter: grayscale(0%);
     
     filter: grayscale(0%);
-	opacity: 0;
+/*	opacity: 0;*/
     filter:;}  
 }  

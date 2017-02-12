@@ -17,6 +17,7 @@ img{border:2px;-webkit-filter: grayscale(0%);
 .grid {
 	position: relative;
 	margin: 0 auto;
+
 }
 
 .js .grid::after {
@@ -114,6 +115,7 @@ img{border:2px;-webkit-filter: grayscale(0%);
 	background: #1f1d1d;
 	-webkit-transition: opacity 0.6s;
 	transition: opacity 0.6s;
+
 }
 
 .preview--open {
@@ -293,6 +295,10 @@ display: block;
 	font-weight: normal;
 	font-size: 0.45em;
 	letter-spacing: 0;
+}
+.photo2{
+	background-image: url("../img/me2.png");
+	
 }
 
 
