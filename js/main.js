@@ -272,11 +272,11 @@
 			this.cloneImg = document.createElement('img');
 			this.cloneImg.className = 'clone';
 			src = '';
-			this.cloneImg.style.opacity = 0;
+			this.cloneImg.style.opacity = 1;
 			this.previewEl.appendChild(this.cloneImg);
 		}
 		else {
-			this.cloneImg.style.opacity = 1;
+			this.cloneImg.style.opacity = 0;
 			// set top/left/width/height of grid item's image to the clone
 			this.cloneImg.style.width = settings.width  + 'px';
 			this.cloneImg.style.height = settings.height  + 'px';
@@ -309,6 +309,7 @@
 
 		// large image will animate back to the position of its grid's item
 		classie.add(this.originalImg, 'animate');
+		this.originalImg.style.opacity = 0;
 
 		// set the transform to the original/large image
 		var win = this._getWinSize(),
@@ -317,8 +318,8 @@
 			z = gridImg.offsetWidth/this.originalImg.offsetWidth;
 
 		this.originalImg.style.WebkitTransform = 'translate3d(' + dx + 'px, ' + dy + 'px, 0) scale3d(' + z + ', ' + z + ', 1)';
-		this.originalImg.style.transform = 'translate3d(' + dx + 'px, ' + dy + 'px, 0) scale3d(' + z + ', ' + z + ', 1)';	
-		
+		this.originalImg.style.transform = 'translate3d(' + dx + 'px, ' + dy + 'px, 0) scale3d(' + z + ', ' + z + ', 1)';
+
 		// once that's done..
 		onEndTransition(this.originalImg, function() {
 			// clear description
